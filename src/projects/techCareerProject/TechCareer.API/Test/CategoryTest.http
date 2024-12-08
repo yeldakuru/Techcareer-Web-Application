@@ -1,0 +1,30 @@
+﻿
+#GetAllCategory
+GET  https://localhost:7122/api/Category?includeDeleted=true
+Accept: application/json
+
+###
+#PostAllCategory
+POST https://localhost:7122/api/Category
+Accept: application/json
+
+###
+#PutAllCategory
+PUT https://localhost:7122/api/Category/2
+Accept: application/json
+
+###
+#GetAllCategory
+GET https://localhost:7122/api/Category/1
+Accept: application/json
+
+###
+#DeleteAllCategory
+DELETE https://localhost:7122/api/Category/1?permanent=false
+Accept: application/json
+###
+#GetAllCategory
+GET https://localhost:7122/api/Category/paginate?pageIndex=1&pageSize=10&includeDeleted=false
+Accept: application/json
+
+

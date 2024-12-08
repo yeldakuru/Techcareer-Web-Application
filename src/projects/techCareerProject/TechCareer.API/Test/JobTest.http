@@ -1,0 +1,30 @@
+﻿
+#GetAllJob
+GET  https://localhost:7122/api/Job?includeDeleted=false
+Accept: application/json
+
+###
+#PostAllJob
+POST https://localhost:7122/api/Job
+Accept: application/json
+
+###
+#GetAllJob
+GET https://localhost:7122/api/Job/1
+Accept: application/json
+
+###
+#PutAllJob
+
+PUT https://localhost:7122/api/Job/1
+Accept: application/json
+
+###
+#DeleteAllJob
+DELETE https://localhost:7122/api/Job/1
+Accept: application/json
+###
+#GetAllJob
+GET https://localhost:7122/api/Job/paginate?pageIndex=1&pageSize=10&includeDeleted=false
+Accept: application/json
+
